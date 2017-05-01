@@ -9,13 +9,20 @@ import java.util.List;
  * @author Cheaker on 21.04.2017.
  */
 public class Field {
+
     /**
      * Amount of the balls
      */
     public static final int BALLS_COUNT = 9;
 
+    /**
+     * Number of attempts
+     */
     private int attempts = 0;
 
+    /**
+     * Number of deviated ball
+     */
     private int deviatedBall;
 
     private Scale scale;
