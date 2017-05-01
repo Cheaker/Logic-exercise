@@ -9,6 +9,9 @@ import java.util.List;
  * @author Cheaker on 21.04.2017.
  */
 public class Field {
+    /**
+     * Amount of the balls
+     */
     public static final int BALLS_COUNT = 9;
 
     private int attempts = 0;
