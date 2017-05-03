@@ -42,16 +42,6 @@ public class Field {
         getBallByNumber(deviatedBall).setWeight(randomNumber());
     }
 
-    public static void main(String[] args) {
-
-        char c1 = '1';
-        char c2 = '\u0031';
-        char c3 = 49;
-
-        System.out.println(c1 + c2 + c3);
-
-    }
-
     public int getDeviatedBall() {
         return deviatedBall;
     }
@@ -67,7 +57,9 @@ public class Field {
     public void resetAttempt() {
         attempts = 0;
     }
-
+    /**
+    * Getter for scale
+    */
     public Scale getScale() {
         return scale;
     }
